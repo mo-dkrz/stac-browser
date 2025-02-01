@@ -1,4 +1,4 @@
-ARG pathPrefix="/"
+ARG pathPrefix="/api/stacberowser/"
 
 FROM node:lts-alpine3.18 AS build-step
 ARG DYNAMIC_CONFIG=true
